@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import AppointmentForm from "./components/AppointmentForm";
 import { staffDuty } from "./data/staffDuty";
-import Contact from "./components/Contact";
-import { doctors } from "../data/doctors";
+import { doctors } from "./data/doctors.js";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminLogin from "./pages/AdminLogin";
 import "./App.css";
